@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c514d8f7b9fc5970bdd94287905ef584",
+    "content-hash": "873beee6a0f5b6d241b4536b26d9af96",
     "packages": [
         {
             "name": "brick/math",
@@ -2018,6 +2018,54 @@
                 }
             ],
             "time": "2025-12-07T16:03:21+00:00"
+        },
+        {
+            "name": "meraki-labs/merakilab-core",
+            "version": "v0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/meraki-labs/merakilab-core.git",
+                "reference": "722dbde63fb4e5c2d62a5e7f05f274ef5a921a20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/meraki-labs/merakilab-core/zipball/722dbde63fb4e5c2d62a5e7f05f274ef5a921a20",
+                "reference": "722dbde63fb4e5c2d62a5e7f05f274ef5a921a20",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^12.0",
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Merakilab\\Core\\CoreServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Merakilab\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DatPA",
+                    "email": "datpa@merakilabs.tech"
+                }
+            ],
+            "description": "Meraki Core Framework",
+            "support": {
+                "issues": "https://github.com/meraki-labs/merakilab-core/issues",
+                "source": "https://github.com/meraki-labs/merakilab-core/tree/v0.0.3"
+            },
+            "time": "2025-12-27T09:38:26+00:00"
         },
         {
             "name": "monolog/monolog",
