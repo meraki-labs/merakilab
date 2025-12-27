@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "873beee6a0f5b6d241b4536b26d9af96",
+    "content-hash": "4e81ca06720e6b3aebb3d67315b08c93",
     "packages": [
         {
             "name": "brick/math",
@@ -2020,7 +2020,7 @@
             "time": "2025-12-07T16:03:21+00:00"
         },
         {
-            "name": "meraki-labs/merakilab-core",
+            "name": "merakilab/merakilab-core",
             "version": "v0.0.3",
             "source": {
                 "type": "git",
