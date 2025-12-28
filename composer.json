@@ -1,5 +1,4 @@
 {
-    "$schema": "https://getcomposer.org/schema.json",
     "name": "merakilab/meraki",
     "type": "project",
     "description": "The skeleton application for the Meraki's Lab framework.",
